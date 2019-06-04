@@ -1,144 +1,158 @@
 <!DOCTYPE html>
 <html>
-	<head>
-	   <title>webstandards 11187</title>
-	</head>
-	
-	<body>
+   <head>
+      <title>webstandards 11187</title>
+      <meta charset="UTF-8">
+      <meta name="description" content="Free Web tutorials"/>
+      <meta name="keywords" content="HTML,CSS"/>
+      <meta name="author" content="Almir Beraldo Junior"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>webstandards 11187</title>
+   </head>
+
+   <body>
+
+      <div id="divHome">
+         <ul id="ulOptions">
+            <li>
+               <a href="index.html" target="_self">Home</a>
+            </li>
+         </ul>
+      </div>
       <!-- PARA EXIBIR UM TEXTO PRÉ-FORMATADO UTILIZAMOS
-	       A TAG <pre> </pre> -->
-	
-      <pre>	
+          A TAG <pre> </pre> -->
+
+      <pre>
          HTML é uma das linguagens que utilizamos para  desenvolver websites.
-         O acrônimo HTML vem do inglês e significa Hypertext 
+         O acrônimo HTML vem do inglês e significa Hypertext
          Markup Language ou em português Linguagem de Marcação de Hipertexto.
 
          O HTML é a liguagem base da internet.
          Foi criada para ser de fácil entendimento por seres humanos e também por máquinas,
          como por exemplo o Google ou outros sistemas que percorrem a internet capturando informação.
-	  </pre>
-     <hr />     
-     <div id="divContent">         
+      </pre>
+      <hr />
+      <div id="divContent">
          <h4 id="h4WhoCreate">Quem criou o HTML?</h4>
-         <p>Tim Berners-Lee. Esse &eacute; o nome do homem que criou o HTML. <br />Ele criou o HTML para a comunica&ccedil;&atilde;o 
-         e dissemina&ccedil;&atilde;o de pesquisas entre ele e seu grupo de colegas.</p>
+         <p>Tim Berners-Lee. Esse &eacute; o nome do homem que criou o HTML. <br />Ele criou o HTML para a comunica&ccedil;&atilde;o
+            e dissemina&ccedil;&atilde;o de pesquisas entre ele e seu grupo de colegas.</p>
          <hr />
-         <p>O HTML ficou bastante conhecido quando começou a ser utilizada para formar a rede pública daquela 
-         época, o que se tornaria mais tarde a internet que conhecemos hoje.</p>
+         <p>O HTML ficou bastante conhecido quando começou a ser utilizada para formar a rede pública daquela
+            época, o que se tornaria mais tarde a internet que conhecemos hoje.</p>
          <h4>Algumas tags do html...</h4>
-         
+
          <h5>ESTRUTURAR O DOCUMENTO</h5>
          &lt;div&gt;&lt;/div&gt;
-         
+
          <h5>ESTRUTURAR TEXTO</h5>
-         
-         <!-- 
+
+         <!--
             lt - lower than (menor do que)
             gt - greater than (maior do que)
-         -->   
-		
-		   &lt;pre&gt; &lt;/pre&gt;<br />
-		   &lt;h4&gt; &lt;/h4><br />
-		   &lt;p&gt; &lt;/p><br />
-		   &lt;br /&gt;<br />
-		   &lt;hr /&gt;<br />
-		<hr />   
-		<!--
-			LISTAS
-				Listas Ordenadas
-				Ordered List <ol> ... items ... <ol/>
-				
-				Listas não Ordenadas
-				Unordered List <ul> ... items ... <ul/>
-				
-				Items da Lista
-				List Items <li>text</li>
-		-->
-		<ul>   
-		   <li>&lt;pre&gt; &lt;/pre&gt;</li>
-		   <li>&lt;h4&gt; &lt;/h4></li>
-		   <li>&lt;p&gt; &lt;/p></li>
-		   <li>&lt;br /&gt;</li>
-		   <li>&lt;hr /&gt;</li>
-		</ul>
-		
-		<ol>   
-		   <li>&lt;pre&gt; &lt;/pre&gt;</li>
-		   <li>&lt;h4&gt; &lt;/h4></li>
-		   <li>&lt;p&gt; &lt;/p></li>
-		   <li>&lt;br /&gt;</li>
-		   <li>&lt;hr /&gt;</li>
-		</ol>
-		
-		<h4>TABELAS</h4>
-		   <table id="tabBasic" border="1">
-		     <tr>
-			     <th>Abertura</th>
-				 <th>Fechamento</th>
-				 <th>Descri&ccedil;&atilde;o</th>
-			  </tr>
-			  <tr>
-			     <td>&lt;pre&gt</td>
-				 <td>&lt;/pre&gt</td>
-				 <td>Exibe um texto pr&eacute;-formatado</td>
-			  </tr>
-			   <tr>
-			     <td>&lt;h4&gt</td>
-				 <td>&lt;/h4&gt</td>
-				 <td>Exibe um t&iacute;tulo</td>
-			  </tr>
-			   <tr>
-			     <td>&lt;p&gt</td>
-				 <td>&lt;/p&gt</td>
-				 <td>Define um par&aacute;grafo</td>
-			  </tr>
-		   </table>
-		
-		<hr />
-		   
-		   <table id="tabfull" border="5">
-		      <thead>
-				   <tr>
-			     <th>Abertura</th>
-				 <th>Fechamento</th>
-				 <th>Descri&ccedil;&atilde;o</th>
-			  </tr>
-			  </thead>
-			  <tbody>
-			     <tr>
-			     <td>&lt;pre&gt</td>
-				 <td>&lt;/pre&gt</td>
-				 <td>Exibe um texto pr&eacute;-formatado</td>
-			     </tr>
-			   <tr>
-			     <td>&lt;h4&gt</td>
-				 <td>&lt;/h4&gt</td>
-				 <td>Exibe um t&iacute;tulo</td>
-			   </tr>
-			   <tr>
-			     <td>&lt;p&gt</td>
-				 <td>&lt;/p&gt</td>
-				 <td>Define um par&aacute;grafo</td>
-			   </tr>
-			  </tbody>
-			  <tfoot>
-			  </tfoot>
-		   </table>
-		   
-		   <hr />
-		   
-		   <table id="tabMerged" border="1">
-		      <thead>
-			     <tr>
-				    <th colspan="2">TAG</th>
-					<th rowspan="2">Descri&ccedil;&atilde;o</th>
-			     </tr>
-				 <tr>
-				    <th>Abertura</th>
-				    <th>Fechamento</th>
-				 </tr>
-			  </thead>
-		   </table>
-		</div>
-	</body>
+         -->
+
+         &lt;pre&gt; &lt;/pre&gt;<br />
+         &lt;h4&gt; &lt;/h4><br />
+         &lt;p&gt; &lt;/p><br />
+         &lt;br /&gt;<br />
+         &lt;hr /&gt;<br />
+         <hr />
+         <!--
+            LISTAS
+               Listas Ordenadas
+               Ordered List <ol> ... items ... <ol/>
+
+               Listas não Ordenadas
+               Unordered List <ul> ... items ... <ul/>
+
+               Items da Lista
+               List Items <li>text</li>
+         -->
+         <ul>
+            <li>&lt;pre&gt; &lt;/pre&gt;</li>
+            <li>&lt;h4&gt; &lt;/h4></li>
+            <li>&lt;p&gt; &lt;/p></li>
+            <li>&lt;br /&gt;</li>
+            <li>&lt;hr /&gt;</li>
+         </ul>
+
+         <ol>
+            <li>&lt;pre&gt; &lt;/pre&gt;</li>
+            <li>&lt;h4&gt; &lt;/h4></li>
+            <li>&lt;p&gt; &lt;/p></li>
+            <li>&lt;br /&gt;</li>
+            <li>&lt;hr /&gt;</li>
+         </ol>
+
+         <h4>TABELAS</h4>
+         <table id="tabBasic" border="1">
+            <tr>
+               <th>Abertura</th>
+               <th>Fechamento</th>
+               <th>Descri&ccedil;&atilde;o</th>
+            </tr>
+            <tr>
+               <td>&lt;pre&gt</td>
+               <td>&lt;/pre&gt</td>
+               <td>Exibe um texto pr&eacute;-formatado</td>
+            </tr>
+            <tr>
+               <td>&lt;h4&gt</td>
+               <td>&lt;/h4&gt</td>
+               <td>Exibe um t&iacute;tulo</td>
+            </tr>
+            <tr>
+               <td>&lt;p&gt</td>
+               <td>&lt;/p&gt</td>
+               <td>Define um par&aacute;grafo</td>
+            </tr>
+         </table>
+
+         <hr />
+
+         <table id="tabfull" border="5">
+            <thead>
+               <tr>
+                  <th>Abertura</th>
+                  <th>Fechamento</th>
+                  <th>Descri&ccedil;&atilde;o</th>
+               </tr>
+            </thead>
+            <tbody>
+               <tr>
+                  <td>&lt;pre&gt</td>
+                  <td>&lt;/pre&gt</td>
+                  <td>Exibe um texto pr&eacute;-formatado</td>
+               </tr>
+               <tr>
+                  <td>&lt;h4&gt</td>
+                  <td>&lt;/h4&gt</td>
+                  <td>Exibe um t&iacute;tulo</td>
+               </tr>
+               <tr>
+                  <td>&lt;p&gt</td>
+                  <td>&lt;/p&gt</td>
+                  <td>Define um par&aacute;grafo</td>
+               </tr>
+            </tbody>
+            <tfoot>
+            </tfoot>
+         </table>
+
+         <hr />
+
+         <table id="tabMerged" border="1">
+            <thead>
+               <tr>
+                  <th colspan="2">TAG</th>
+                  <th rowspan="2">Descri&ccedil;&atilde;o</th>
+               </tr>
+               <tr>
+                  <th>Abertura</th>
+                  <th>Fechamento</th>
+               </tr>
+            </thead>
+         </table>
+      </div>
+   </body>
 </html>
