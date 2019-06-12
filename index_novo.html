@@ -1,78 +1,82 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-   <head> <!-- TODO DOCUMENTO HTML TEM UM <head> -->
-      <meta charset="UTF-8"/>
-      <meta name="description"
-            content="Free Web tutorials"/>
-      <meta name="keywords"
-            content="HTML,CSS"/>
-      <meta name="author"
-            content="Alessandro Breves"/>
-      <meta name="viewport"
-            content="width=device-width, initial-scale=1.0"/>
-      <title>webstandards 11187</title>
-
-     <style>
-         *{
-            margin:0;
-            border:0;
-            padding:0;
-         }
-         #divMain{
-            background-color: #000;
-            margin:0 auto;
+    <head>
+        <title>Novo Projeto</title>
+        <meta charset="UTF-8"/>
+        <meta name="description" content="Free Web tutorials"/>
+        <meta name="keyswords" content="HTML,CSS"/>
+        <meta name="author" content="Almir Beraldo Junior"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <style>
+        *{
+            margin: 0;
+            border: 0;
+            padding: 0;
+        }
+        #divMain{
+            background-color: #3CB371;
+            margin: auto;
             position: relative;
             left: 0px;
-            top: 0px;
-            width: 800px;
-            height: 600px;
-         }
-         header{
-            background-color: #666;
+            top: 50px;
+            width: 900px;
+            height: 500px;
+        }
+        header{
+            background-color: #7FFFD4;
             position: absolute;
             left: 0px;
             top: 0px;
-            width: 800px;
-            height: 100px;
-         }
-         #navMainOptions{
-            background-color: #0B2F3A;
+            width: 900px;
+            height: 50px;
+        }
+        #navMainOptions{
+            background-color: #2E8B57;
             position: absolute;
             left: 0px;
-            top: 100px;
-            width: 800px;
-            height: 40px;
+            top: 50px;
+            width: 900px;
+            height: 50px;
          }
          #sectionContent{
-            background-color: #bbb;
-            position: absolute;
-            left: 0px;
-            top: 140px;
-            width: 800px;
-            height: 420px;
+             background-color: #bbb;
+             position: absolute;
+             left: 0px;
+             top: 100px;
+             width: 900px;
+             height: 360px;
          }
          #asideContentOptions{
-            background-color: #0B4C5F;
-            position: absolute;
-            left: 0px;
-            top: 0px;
-            width: 160px;
-            height: 420px;
+             background-color: #90EE90;
+             position: absolute;
+             left: 0px;
+             top: 0px;
+             width: 140px;
+             height: 360px;
          }
          #divContent{
-            background-color: #eee;
-            position: absolute;
-            left: 160px;
-            top: 0px;
-            width: 640px;
-            height: 420px;
+             background-color: #DCDCDC;
+             position: absolute;
+             left: 140px;
+             top: 0px;
+             width: 760px;
+             height: 360px;
          }
-         footer{
-            background-color: #0B2F3A;
+         #iframeContent{
             position: absolute;
             left: 0px;
-            top: 560px;
-            width: 800px;
+            top: 0px;
+            width: 100%;
+            height: 100%;
+            /*background-color: black;*/
+         }
+         footer{
+            background-color: #00FFFF;
+            position: absolute;
+            left: 0px;
+            top: 460px;
+            width: 900px;
             height: 40px;
          }
          h3, h5{
@@ -88,109 +92,108 @@
             list-style-type:none;
          }
          #ulMainOptions li{
-            padding:0px;
-            margin:10px;
-            margin-left:0px;
-            border:0;
-            height: 200%;
+            padding:0%;
+            margin:30px;
+            margin-left:20px;
+            border:150px;
+            height: 500%;
             display:inline;
          }
          #ulMainOptions li a:hover{
             background-color:yellow;
          }
-         
          #ulLayouts li{
             height: 30px;
             width: 100%;
          }
-         
          #ulLayouts li:hover{
             background-color:yellow;
          }
          
-         
-         
-        /* ul li a:hover{
-            background-color: #fff;
-         }*/
-         
-      </style>
-   </head>
-   <body>
-      <div id="divMain">
-         <header id="headerTopBar">
-            <h3>webstandards 11187</h3>
-         </header>
-         <nav id="navMainOptions">
-            <ul id="ulMainOptions">
-               <li>
-                  <a href="https://www.w3schools.com/tags/default.asp"
-                     target="_blank">
-                     Guia de refer&ecirc;ncia
-                  </a>
-               </li>
-               <li>
-                  <a href="https://www.google.com"
-                     target="_blank">
-                     Google
-                  </a>
-               </li>
-               <li>
-                  <a href="http://www.csszengarden.com/"
-                     target="_blank">
-                     CSS Zen Garden
-                  </a>
-               </li>
-            </ul> 
-         </nav> 
-         <section id="sectionContent">
-            <aside id="asideContentOptions">
-      
-               <ul id="ulLayouts">         
-                  <li>
-                     <a href="ws-11187.html"
-                        target="_self">
-                        Notas de Aula
-                     </a>
-                  </li>
-                  <li>
-                     <a href="author.html"
-                        target="_self">
-                        Autor
-                     </a>
-                  </li>
-                  <li>
-                     <a href="aula-31Mai.html"
-                        target="_self">
-                        Aula 31/Maio
-                     </a>
-                  </li>
-                  <li>
-                     <a href="layout-divs.html"
-                        target="_self">
-                        Layout com divs
-                     </a>
-                  </li>
-                  <li>
-                     <a href="layout-html5.html"
-                        target="_self">
-                        Layout com HTML5
-                     </a>
-                  </li>
-                  <li>
-                     <a href="modelo.html"
-                        target="_blank">
-                        Modelo
-                     </a>
-                  </li>
-               </ul> 
-            </aside>
-            <div id="divContent">
-               <h5>CONTENT SECTION</h5>
-            </div>
-         </section> 
-         <footer id="footerBottomBar">
-         </footer> 
-      </div> 
-   </body>
+    </style>
+    <body>
+        <div id="divMain">
+            <header id="headerTopBar">
+                <h3>Novo Projeto</h3>
+            </header>
+            <nav id="navMainOptions"> <!--NAV: link de navegação para outras páginas.-->
+                <ul id="ulMainOptions"> 
+                    <li>
+                        <a href="https://www.w3schools.com/tags/default.asp"
+                           target="_blank">
+                            Guia de Refer&ecirc;ncia
+                        </a>
+                    </li> 
+                    <li>
+                        <a href="https://www.google.com.br"
+                           target="_blank">
+                            Google
+                        </a>
+                    </li> 
+                    <li>
+                        <a href="http://www.csszengarden.com/"
+                           target="_blank">
+                            CSS Zen Garden
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <section id="sectionContent">
+                <aside id="asideContentOptions">
+                    <ul id="ulLayouts">
+                        <li>
+                            <a href="ws-11187.html"
+                               target="_self">
+                                Notas de Aula
+                            </a> 
+                        </li>
+                        <li>
+                            <a href="author.html"
+                               target="_self">
+                                Autor
+                            </a> 
+                        </li>
+                        <li>
+                            <a href="aula-31Maio.html"
+                               target="_self">
+                                Aula 31/Maio
+                            </a>
+                        </li>
+                        <li>
+                            <a href="layout-divs.html"
+                               target="_self">
+                                Layout com divs
+                            </a>
+                        </li>
+                        <li>
+                            <a href="layout-html5.html"
+                               target="_self">
+                                Layout com HTML5
+                            </a>
+                        </li>
+                        <li>
+                            <a href="modelo.html"
+                               target="_blank">
+                                Modelo
+                            </a>
+                        </li>
+                        <li>
+                            <a href="formLogin.html"
+                               target="_self">
+                               Login
+                            </a>
+                        </li>
+                    </ul>
+                </aside>
+                <div id="divContent">
+                    <iframe id="iframeContent"
+                            name="iframeContent">
+                    </iframe>
+                </div>
+            </section> 
+            <footer id="footerBottomBar">
+                <h7>Almir Beraldo Junior 09/06/2019</h7>
+            </footer> 
+        </div>                
+    </body>
 </html>
