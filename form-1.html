@@ -11,61 +11,68 @@
       <meta name="viewport" 
             content="width=device-width, initial-scale=1.0"/>
       <title>webstandards 11187</title>
+
+
+      <link rel="stylesheet"
+            type="text/css"
+            href="css/forms.css" />
+
       <style>
-        *{
-/*            margin: 0;
-            border: 0;
-            padding: 0;*/
-        }         
-    </style>
-    <body>
+         *{
+            /*            margin: 0;
+                        border: 0;
+                        padding: 0;*/
+         }         
+      </style>
+   <body>
       <form id="formSample1"
             name="formSample1"
             action="form-data.php"
             method="GET">
-         
-         <label id="labelName"
-                for="textName">Nome:</label><br />
-         <input id="textName"
-                name="textName"
-                type="text"
-                placeholder="Digite aqui o seu nome"
-                required /><br />
-         
-         <label id="labelEmailAddress"
-                for="emailEmailAddress">E-mail:</label><br />
-         <input id="emailEmailAddress"
-                name="emailEmailAddress"
-                type="email"
-                placeholder="Digite aqui o seu e-mail"
-                required /><br />
-         
-         <label id="labelGit"
-                for="urlGit">Git:</label><br />
-         <input id="urlGit"
-                name="urlGit"
-                type="url"
-                placeholder="Digite aqui o seu git"
-                required /><br />
-         
-         <label id="labelSchedule"
-                for="dateSchedule">Agendar:</label><br />
-         <input id="dateSchedule"
-                name="dateSchedule"
-                type="date"
-                required /><br />         
-         
-         <label id="labelAuthenticate"
-                for="passwordAuthenticate">Autenticar:</label><br />
-         <input id="passwordAuthenticate"
-                name="passwordAuthenticate"
-                type="password"
-                required /><br />
-         
-         <input id="submitSend"
-                type="submit"
-                value="Enviar"/>
-         
+         <div id="divInputs">
+
+            <label id="labelName"
+                   for="textName">Nome:</label><br />
+            <input id="textName"
+                   name="textName"
+                   type="text"
+                   placeholder="Digite aqui o seu nome"
+                   required /><br />
+
+            <label id="labelEmailAddress"
+                   for="emailEmailAddress">E-mail:</label><br />
+            <input id="emailEmailAddress"
+                   name="emailEmailAddress"
+                   type="email"
+                   placeholder="Digite aqui o seu e-mail"
+                   required /><br />
+
+            <label id="labelGit"
+                   for="urlGit">Git:</label><br />
+            <input id="urlGit"
+                   name="urlGit"
+                   type="url"
+                   placeholder="Digite aqui o seu git"
+                   required /><br />
+
+            <label id="labelSchedule"
+                   for="dateSchedule">Agendar:</label><br />
+            <input id="dateSchedule"
+                   name="dateSchedule"
+                   type="date"
+                   required /><br />         
+
+            <label id="labelAuthenticate"
+                   for="passwordAuthenticate">Autenticar:</label><br />
+            <input id="passwordAuthenticate"
+                   name="passwordAuthenticate"
+                   type="password"
+                   required /><br />
+
+            <input id="submitSend"
+                   type="submit"
+                   value="Enviar"/>
+         </div>
       </form>
    </body>
 </html>
