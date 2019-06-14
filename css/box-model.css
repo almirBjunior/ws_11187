@@ -3,7 +3,7 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
-/* 
+/*
     Created on : 12/06/2019, 20:40:07
     Author     : Aluno
 */
@@ -17,27 +17,27 @@ and open the template in the editor.
 html{
    margin: 5px;
    padding: 5px;
-   
+
    background-color: #ddd;
    border: 2px solid #fff;
-   
+
    height: 96%;
 }
 
 body{
    background-color: #faa;
    border: 2px solid #f00;
-   
+
    height: 94%;
 }
 
 div{
    margin: auto;
    padding: 5px;
-   
+
    background-color: #afa;
    border:2px solid #0f0;
-   
+
    width: 90%;
    height: 90%;
    text-align: center;
@@ -51,11 +51,63 @@ h3{
 .inner-div{
    margin: 10px auto;
    padding: 5px;
-   
+
    background-color: #585;
-   border:4px outset #000;
-   
-   /*width: 80%;*/
+   border:4px outset #bbb;
+
+   width: 47%;
    height: 70%;
    text-align: center;
+   cursor: pointer;
+}
+.left-div{
+   float: left;
+}
+.right-div{
+   float: right;
+}
+
+#divLeft{
+   background-image: url(../media/images/html5_css3.png);
+   background-repeat: no-repeat;
+   background-position: 180px 130px;
+   background-attachment: fixed;
+   background-size: 30%;
+   border-radius: 15px 50px 30px;
+}
+
+#divRight{
+   overflow-y: auto;
+   /*border-radius: 15px 50px 30px;*/
+}
+article{
+   padding: 10px;
+}
+
+article p{
+   margin: 15px 10px;
+   font-size: 16px;
+   text-align: justify;
+}
+
+article li{
+   margin: 15px;
+   /*font-size: 16px;*/
+   text-align: justify;
+
+   font: italic 15px / 16px Geogia, serif;
+}
+
+span{
+   font-weight: bolder;
+}
+
+.underline{
+   font-weight: normal;
+   text-decoration: underline;
+}
+
+.bold-yellow{
+   font-weight: bolder;
+   color: yellow;
 }

@@ -19,31 +19,31 @@ and open the template in the editor.
             position: relative;
             left: 0px;
             top: 50px;
-            width: 900px;
-            height: 500px;
+            width: 1280px;
+            height: 600px;
         }
         header{
             background-color: #7FFFD4;
-            position: absolute;
+            position: relative;
             left: 0px;
             top: 0px;
-            width: 900px;
-            height: 50px;
+            width: 1280px;
+            height: 900px;
         }
         #navMainOptions{
             background-color: #2E8B57;
             position: absolute;
             left: 0px;
             top: 50px;
-            width: 900px;
-            height: 50px;
+            width: 1280px;
+            height: 950px;
          }
          #sectionContent{
              background-color: #bbb;
              position: absolute;
              left: 0px;
              top: 100px;
-             width: 900px;
+             width: 1280px;
              height: 360px;
          }
          #asideContentOptions{
@@ -51,7 +51,7 @@ and open the template in the editor.
              position: absolute;
              left: 0px;
              top: 0px;
-             width: 140px;
+             width: 1280px;
              height: 360px;
          }
          #divContent{
@@ -59,8 +59,8 @@ and open the template in the editor.
              position: absolute;
              left: 140px;
              top: 0px;
-             width: 760px;
-             height: 360px;
+             width: 1280px;
+            height: 900px;
          }
          #iframeContent{
             position: absolute;
@@ -74,9 +74,10 @@ and open the template in the editor.
             background-color: #00FFFF;
             position: absolute;
             left: 0px;
-            top: 460px;
-            width: 900px;
-            height: 40px;
+            top: 1000px;
+            padding: 70px;
+            width: 1280px;
+            height: 1px;
          }
          h3, h5{
             margin:0;
