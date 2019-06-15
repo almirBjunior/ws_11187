@@ -15,36 +15,36 @@ and open the template in the editor.
         }
         #divMain{
             background-color: #3CB371;
-            margin: auto;
-            position: relative;
+            margin: initial;
+            position: absolute;
             left: 0px;
-            top: 50px;
+            top: 0;
             width: 1280px;
-            height: 600px;
+            height: 689px;
         }
         header{
             background-color: #7FFFD4;
-            position: relative;
+            position: absolute;
             left: 0px;
             top: 0px;
-            width: 1280px;
-            height: 900px;
+            width: 1600px;
+            height: 689px;
         }
         #navMainOptions{
             background-color: #2E8B57;
             position: absolute;
             left: 0px;
             top: 50px;
-            width: 1280px;
-            height: 950px;
+            width: 1600px;
+            height: 689px;
          }
          #sectionContent{
              background-color: #bbb;
              position: absolute;
              left: 0px;
              top: 100px;
-             width: 1280px;
-             height: 360px;
+             width: 1600px;
+             height: 689px;
          }
          #asideContentOptions{
              background-color: #90EE90;
@@ -52,7 +52,7 @@ and open the template in the editor.
              left: 0px;
              top: 0px;
              width: 1280px;
-             height: 360px;
+             height: 689px;
          }
          #divContent{
              background-color: #DCDCDC;
@@ -60,7 +60,7 @@ and open the template in the editor.
              left: 140px;
              top: 0px;
              width: 1280px;
-            height: 900px;
+            height: 689px;
          }
          #iframeContent{
             position: absolute;
@@ -73,11 +73,11 @@ and open the template in the editor.
          footer{
             background-color: #00FFFF;
             position: absolute;
-            left: 0px;
-            top: 1000px;
-            padding: 70px;
-            width: 1280px;
-            height: 1px;
+            left: 0;
+            top: 744px;
+            /*padding: 70px;*/
+            width: 1600px;
+            height: 45px;
          }
          h3, h5{
             margin:0;
