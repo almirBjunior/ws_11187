@@ -1,0 +1,136 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : 12/06/2019, 20:40:07
+    Author     : Aluno
+*/
+@font-face {
+   font-family: Pacifico-Regular;
+   src: url('../media/fonts/Pacifico-Regular.ttf');
+}
+
+
+*{
+   margin: 0px;
+   padding: 0px;
+   border: 0px;
+}
+
+html{
+   margin: 5px;
+   padding: 5px;
+
+   background-color: #ddd;
+   border: 2px solid #fff;
+
+   height: 96%;
+}
+
+body{
+   background-color: #faa;
+   border: 2px solid #f00;
+
+   height: 94%;
+}
+
+div{
+   margin: 10px auto;
+   padding: 5px;
+
+   background-color: #afa;
+   border:2px solid #0f0;
+
+   width: 90%;
+   height: 90%;
+   text-align: center;
+}
+
+h3{
+   background-color: #fff;
+   font: italic bold 12px/30px Georgia, serif;
+}
+
+.horizontal-div{
+   margin: 10px auto;
+   padding: 0px;
+
+   background-color: #585;
+   border:4px outset #bbb;
+
+   width: 90%;
+   /*height: 70%;*/
+   text-align: center;
+   box-shadow: 5px 5px 5px #383;
+   
+   transition: all 3s ease;
+}
+.horizontal-div:hover{
+   background-color: #858;
+   border:4px inset #87CEFA;
+
+   box-shadow: 15px 15px 28px #838;
+}
+.first-div{
+   float: top;
+   height: 20%;
+}
+.second-div{
+   float: bottom;
+   height: 60%;
+}
+
+
+article{
+   padding: 10px;
+}
+
+article p{
+   margin: 15px 10px;
+   font-size: 16px;
+   text-align: justify;
+}
+
+article li{
+   margin: 15px;
+   /*font-size: 16px;*/
+   text-align: justify;
+
+   /*font: italic 15px / 16px Geogia, serif;*/
+   font-family: 'Love Ya Like A Sister', cursive;
+}
+
+article h5{
+   font-family: Pacifico-Regular;
+   font-size: 26px;
+   text-shadow: 15px 15px 28px #ccc;
+
+}
+
+span{
+   font-weight: bolder;
+}
+
+.underline{
+   font-weight: normal;
+   text-decoration: underline;
+}
+
+.bold-yellow{
+   font-weight: bolder;
+   color: red;
+}
+
+/*#divInnerLeft{
+   position: relative;
+   top: 0;
+   left: 0;
+   height: 94%;
+   width: 98%;
+   margin: auto;
+   opacity: 0.5;
+   border-radius: 15px 50px 30px;
+
+}*/
