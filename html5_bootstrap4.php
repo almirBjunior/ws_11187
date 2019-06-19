@@ -16,18 +16,18 @@ and open the template in the editor.
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-      
-      
-            <style>
-               #divContent1, #divContent2, #divContent3{
-                  top: 60px;
-                  width: auto;
-                  height: 80px;
-                  background-color: #2E8B57;
-               }
-               
 
-            </style>
+
+      <style>
+         #divContent1, #divContent2, #divContent3{
+            margin: 5px auto;
+            top: 60px;
+            width: auto;
+            background-color: #2E8B57;
+         }
+
+
+      </style>
 
    </head>
    <body>
@@ -54,23 +54,37 @@ and open the template in the editor.
                      <div class="dropdown-menu">
                         <a class="dropdown-item" href="#"
                            data-target="#divContent1"
-                           data-toggle="collapse">Link 1</a>
+                           data-toggle="collapse">Forms</a>
                         <a class="dropdown-item" href="#"
                            data-target="#divContent2"
-                           data-toggle="collapse">Link 2</a>
+                           data-toggle="collapse">Carousel</a>
                         <a class="dropdown-item" href="#"
                            data-target="#divContent3"
-                           data-toggle="collapse">Link 3</a>
+                           data-toggle="collapse">Accordion</a>
                      </div>
                   </li>
                </ul>
             </nav>
-            <div id="divContent1"
-                 class="collapse">Content1</div>
-            <div id="divContent2"
-                 class="collapse">Content2</div>
-            <div id="divContent3"
-                 class="collapse">Content3</div>
+            <div class="container">
+               <div id="divContent1"
+                    class="collapse">
+                       <?php
+                       require_once 'form_bootstrap4.php';
+                       ?>
+               </div>
+               <div id="divContent2"
+                    class="collapse">
+                       <?php
+                       require_once 'carousel_bootstrap4.php';
+                       ?>
+               </div>
+               <div id="divContent3"
+                    class="collapse">
+                  <?php
+                  require_once 'accordion_bootstrap4.php';
+                  ?>
+               </div>
+            </div>
          </div>
       </div>
    </body>
